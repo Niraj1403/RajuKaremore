@@ -1,0 +1,32 @@
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  margin: 0 auto;
+  /* width: 90vw; */
+  align-items: center;
+  background: linear-gradient(341.86deg, #fffa12 -4.22%, #c6318b 45.53%);
+}
+.about-info {
+  text-align: center;
+  color: white;
+  padding: 4rem;
+}
+.about-info h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "Poppins", system-ui;
+  font-style: normal;
+}
+.about-info p {
+  text-align: left;
+  font-family: Poppins;
+  font-size: 17.39px;
+  font-weight: 400;
+  line-height: 26.07px;
+  letter-spacing: -0.15212693810462952px;
+  text-align: justified;
+}

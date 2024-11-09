@@ -1,0 +1,72 @@
+.campaign-container {
+  display: flex;
+  flex-direction: column; /* Stack campaign blocks vertically */
+  align-items: center; /* Center align items */
+  max-width: 1200px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+}
+
+.campaign-block {
+  display: flex; /* Use flexbox to arrange image and info side by side */
+  width: calc(100% - 40px); /* Full width minus padding */
+  margin-bottom: 0; /* No margin between blocks */
+  align-items: center; /* Align items vertically centered */
+  justify-content: space-between; /* Space items evenly */
+}
+
+.campaign-block.left {
+  flex-direction: row; /* Left alignment */
+}
+
+.campaign-block.right {
+  flex-direction: row-reverse; /* Right alignment */
+}
+
+.campaign-image {
+  width: 50%; /* Set image width */
+  max-width: 600px; /* Limit maximum width to keep it uniform */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.campaign-info {
+  width: 50%; /* Set info section width */
+  margin-left: 20px; /* Space between image and info */
+  text-align: left; /* Align text to the left */
+}
+
+.view-details-button {
+  color: black; /* Text color */
+  background-color: white; /* White background */
+  border: 2px solid  #C6318B;
+  ; /* Pink border */
+  padding: 10px 20px; /* Increased padding for larger button size */
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: none; /* Remove smooth transition */
+  font-size: 1rem; /* Slightly larger font size */
+  font-weight: normal; /* Thinner text */
+}
+
+.view-details-button:hover {
+  background-color: white; /* No change on hover */
+  color: black; /* Text color remains the same */
+  border: 2px solid #C6318B;
+  ; /* Border remains pink */
+}
+.campaign-header {
+  font-size: 2rem; /* Title font size */
+  font-weight: bold; /* Bold title */
+  text-align: center; /* Center align title */
+  margin-bottom: 10px;
+  color:  #C6318B;
+  ; /* Space below title */
+}
+
+.campaign-subheader {
+  font-size: 1.2rem; /* Subheader font size */
+  text-align: center; /* Center align subheader */
+  color: #666; /* Gray color */
+  margin-bottom: 20px; /* Space below subheader */
+}
